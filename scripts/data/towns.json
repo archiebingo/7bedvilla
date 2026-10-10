@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Orlando",
+    "lat": 28.54212,
+    "lng": -81.37905
+  },
+  {
+    "name": "Haines City",
+    "lat": 28.10673,
+    "lng": -81.62874
+  },
+  {
+    "name": "Four Corners",
+    "lat": 28.35505,
+    "lng": -81.67705
+  },
+  {
+    "name": "Davenport",
+    "lat": 28.1614,
+    "lng": -81.60174
+  },
+  {
+    "name": "Clermont",
+    "lat": 28.55519,
+    "lng": -81.76695
+  },
+  {
+    "name": "Winter Haven",
+    "lat": 28.02224,
+    "lng": -81.73286
+  },
+  {
+    "name": "Kissimmee",
+    "lat": 28.2919,
+    "lng": -81.40758
+  },
+  {
+    "name": "Celebration",
+    "lat": 28.31906,
+    "lng": -81.54087
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "regional": {
+    "width": 480,
+    "height": 644,
+    "west": -81.8,
+    "east": -81.25,
+    "south": 27.95,
+    "north": 28.6
+  },
+  "local": {
+    "width": 480,
+    "height": 377,
+    "west": -81.74,
+    "east": -81.48,
+    "south": 28.22,
+    "north": 28.4
+  }
+}

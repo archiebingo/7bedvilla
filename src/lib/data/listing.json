@@ -1,0 +1,929 @@
+{
+  "_meta": {
+    "source": "https://www.vrbo.com/4159245ha",
+    "expediaPropertyId": "33566395",
+    "vrboPropertyNumber": "4159245ha",
+    "extracted_from": "/workspace/second-star-villa/vrbo.html (window.__APOLLO_STATE__ + ld+json + SSR HTML)",
+    "extracted_at": "2026-10-09",
+    "rule": "Facts only from the VRBO page. Missing items are TODO strings."
+  },
+  "name": "Second Star to the Right",
+  "name_origin": "We have been asked to name our villa and loved 'the second star to the right' after Peter Pan's Neverland, a place where you never grow up. Enjoy.",
+  "vrbo_headline": "Luxury Villa Pool/HotTub/Karaoke 7B Windsor Westside Resort,Disney,Kissimmee",
+  "type": "Entire home (villa), Grand Collection villa",
+  "resort": "Windsor at Westside (gated resort)",
+  "address": {
+    "locality": "Kissimmee",
+    "region": "FL",
+    "country": "US",
+    "vrbo_breadcrumb_area": "Four Corners, Osceola County",
+    "street": "TODO: street address (owner to confirm whether to publish)",
+    "postalCode": "TODO"
+  },
+  "geo": {
+    "latitude": 28.31274,
+    "longitude": -81.646659,
+    "note": "From VRBO structured data; VRBO coordinates may be approximate."
+  },
+  "capacity": {
+    "bedrooms": 7,
+    "bathrooms_total": 5.5,
+    "bathrooms_full": 5,
+    "bathrooms_half": 1,
+    "sleeps_max": 17,
+    "sleeps_range_text": "sleeps 14-17*",
+    "sleeps_17_note": "17 guests usually requires sleeping 4 children in the bunk bed-trundle room (1 on top, 2 bottom, 1 in pullout trundle) and 2 guests in the double bed."
+  },
+  "bedrooms": {
+    "summary": "7 BR with 4 Kings (1 downstairs)",
+    "known_rooms": [
+      {
+        "name": "Downstairs master (king)",
+        "details": "Own bath with shower and separate tub; separate access to pool",
+        "source": "description + photo caption 'down king stairs master access to pool'"
+      },
+      {
+        "name": "Upstairs master (king)",
+        "source": "photo caption 'upstairs master king, a total of 4 kings'"
+      },
+      {
+        "name": "2nd floor king bedroom",
+        "source": "photo caption '2nd floor king'"
+      },
+      {
+        "name": "2nd floor king bedroom",
+        "source": "photo caption '2nd floor king bedroom'"
+      },
+      {
+        "name": "Bunk room",
+        "details": "Bunk beds twin over full and full trundle, could sleep 5 children",
+        "source": "photo caption"
+      },
+      {
+        "name": "Twin room",
+        "details": "Two twin beds",
+        "source": "VRBO photo alt text 'A bedroom with two twin beds' (caption just 'Room')"
+      },
+      {
+        "name": "Room with double bed",
+        "details": "'2 guests in the double bed'",
+        "source": "description"
+      }
+    ],
+    "TODO": "Owner to confirm exact bed per room; VRBO page has no rooms-and-beds table. Note: 4 kings + bunk + twin + double = 7 rooms is inferred from captions, not stated as a list."
+  },
+  "bathrooms": {
+    "text": "5 1/2 baths in all",
+    "details": [
+      "Downstairs master bath: shower and separate tub",
+      "Another 1/2 bath downstairs",
+      "Pool and patio access to a bathroom"
+    ]
+  },
+  "living_spaces": [
+    "1st floor parlor",
+    "Huge 2nd floor parlor/loft with a poker table and PlayStation 4",
+    "Downstairs living room",
+    "Open-design fully furnished kitchen with island",
+    "Dining table",
+    "Lanai-patio with large dining table"
+  ],
+  "game_room": {
+    "text": "Full size game room 'man-cave'",
+    "items": [
+      "Stage with karaoke machine",
+      "Real DJ lights",
+      "Cordless mikes and various karaoke CDs",
+      "Smart TV connected to the karaoke (sing along to YouTube lyric videos)",
+      "Bluetooth PA system; connect your music devices",
+      "Megatouch touchscreen bar table game with over 100 games (1-4 players: card games, trivia/puzzles, action, strategy, kids games)",
+      "Bar table",
+      "Pool table",
+      "Air hockey",
+      "Large Connect 4 game"
+    ],
+    "host_tip": "Our favorite game is Take 2....try it."
+  },
+  "tv_and_tech": [
+    "11 wall-mounted smart TVs (Vizio; one in game room and one on the patio)",
+    "Outside TV on the lanai",
+    "Free 100 Mbps Wi-Fi",
+    "PlayStation 4 (bring games)",
+    "DVD player and a few DVDs",
+    "Telephone",
+    "Satellite / cable"
+  ],
+  "pool_and_outdoor": [
+    "Private heated, lit pool and spa (hot tub)",
+    "Free pool and spa heat (listing calls it a current special; spa heat requires the pool to be heated)",
+    "Children's pool safety fence",
+    "Covered lanai-patio with large dining table, overhead fan and outdoor TV",
+    "Outdoor closet with one of the two dryers (for wet swimsuits and warm towels)",
+    "Outdoor furniture",
+    "Beach chairs",
+    "BBQ grill available to rent for $70/week through management, set up with propane before arrival"
+  ],
+  "kitchen": [
+    "Fully furnished open design kitchen",
+    "Refrigerator",
+    "Dishwasher",
+    "Microwave",
+    "Stove",
+    "Oven",
+    "Kitchen island",
+    "Dishes & utensils (for inside and pool area)",
+    "Dining table",
+    "Keurig-type and regular drip coffee makers",
+    "Kettle",
+    "Blender",
+    "Ice maker",
+    "Toaster"
+  ],
+  "family_and_kids": [
+    "High chair",
+    "2 pack & play cribs",
+    "Stair fence / baby gate",
+    "Stroller",
+    "Games for kids",
+    "Toys",
+    "Pool safety fence"
+  ],
+  "laundry": [
+    "Washer and 2 dryers (first floor; one dryer in the outdoor closet per 'WHY US')"
+  ],
+  "essentials": [
+    "Towels provided",
+    "Linens provided",
+    "Hair dryers",
+    "Shampoo",
+    "Basic soaps",
+    "Iron & board",
+    "Air conditioning",
+    "Heating",
+    "Desk and desk chair",
+    "Starter amounts of toilet paper, cleaning goods and garbage bags only; no starter food (per law)"
+  ],
+  "safety": [
+    "Smoke detectors",
+    "Carbon monoxide detectors",
+    "Fire extinguishers (first and second floor closet)",
+    "Deadbolt lock",
+    "Exterior lighting",
+    "Fenced private pool",
+    "Emergency lighting / 2 exits",
+    "Urgent care center about 2.5 miles away"
+  ],
+  "accessibility": "Listed as wheelchair accessible with note: 'Several inch step to pool, door, and shower on first floor'",
+  "amenities_vrbo_list": [
+    "Balcony or patio",
+    "Hot tub on site",
+    "Private pool",
+    "Toys",
+    "On-site fitness center",
+    "Barbecue grill",
+    "Air conditioning",
+    "Free internet",
+    "Washer and dryer",
+    "Refrigerator",
+    "Onsite parking available",
+    "Bathtub",
+    "Arcade/game room",
+    "Game room",
+    "Microwave",
+    "Free Wi-Fi",
+    "Towels provided",
+    "Linens provided",
+    "Hair dryer",
+    "Iron & board",
+    "Telephone",
+    "Heating",
+    "Desk",
+    "Dishwasher",
+    "Stove",
+    "Oven",
+    "Grill",
+    "Kitchen island",
+    "Coffee maker",
+    "Kettle",
+    "Blender",
+    "Ice maker",
+    "Toaster",
+    "Spa whirlpool",
+    "Private hot tub",
+    "Heated pool",
+    "Outdoor pool",
+    "Communal pool",
+    "Outdoor furniture",
+    "Beach chairs",
+    "Smart TV",
+    "Satellite / cable",
+    "Video games",
+    "DVD player",
+    "Stereo",
+    "Pool table",
+    "Travel crib",
+    "Child's high chair",
+    "Games for kids",
+    "Baby gate",
+    "Housekeeper optional"
+  ],
+  "clubhouse": {
+    "distance": "About 800 feet from the villa ('REALLY VERY CLOSE')",
+    "size": "10,000 sq ft",
+    "features": [
+      "Bar, food and drinks",
+      "Fireplace",
+      "Sundries shop",
+      "Lazy river",
+      "Huge zero-entry heated resort pool",
+      "Aquapark (knee deep for younger children)",
+      "Water playground with slides",
+      "Lake with pier",
+      "Cabanas",
+      "Large hot spa",
+      "Multiple sports courts including pickleball, basketball and beach volleyball",
+      "Extended-hours gym",
+      "Covered playground",
+      "Arcade room (free games)",
+      "Frozen yogurt area",
+      "Activities"
+    ],
+    "cost": "All but purchases are complimentary",
+    "resort_note": "Upscale gated resort completed 6 years ago (per listing); construction in the resort totally complete for some years."
+  },
+  "location": {
+    "theme_parks": [
+      "8-10 miles to Disney's World Drive",
+      "Disney's Animal Kingdom Theme Park - 15 min drive (VRBO)",
+      "Universal Studios / SeaWorld nearby (no time stated)",
+      "Route 192 attractions and restaurants a few miles away",
+      "International Drive a bit further",
+      "Tampa Hard Rock Casino about an hour away"
+    ],
+    "nearby": [
+      {
+        "name": "Northeast Regional Park",
+        "drive": "3 min",
+        "distance_km": 2.4
+      },
+      {
+        "name": "Lake Davenport",
+        "drive": "3 min",
+        "distance_km": 2.7
+      },
+      {
+        "name": "Four Corners FC",
+        "drive": "5 min",
+        "distance_km": 4.7
+      },
+      {
+        "name": "Highland Reserve Golf Club",
+        "drive": "6 min",
+        "distance_km": 6.2
+      },
+      {
+        "name": "Orange Lake Golf",
+        "drive": "7 min",
+        "distance_km": 9.2
+      },
+      {
+        "name": "Mystic Dunes Golf Club",
+        "drive": "10 min"
+      },
+      {
+        "name": "Lake Louisa State Park",
+        "drive": "12 min"
+      }
+    ],
+    "getting_around": [
+      {
+        "name": "Orlando International Airport (MCO)",
+        "drive": "40 min"
+      },
+      {
+        "name": "Kissimmee Gateway Airport (ISM)",
+        "drive": "31-32 min"
+      },
+      {
+        "name": "Poinciana Station (SunRail)",
+        "drive": "25 min"
+      },
+      {
+        "name": "Meadow Woods Station",
+        "drive": "30 min"
+      },
+      {
+        "name": "Tupperware Station",
+        "drive": "31 min"
+      },
+      {
+        "name": "Kissimmee Station",
+        "drive": "34 min"
+      }
+    ],
+    "restaurants_nearby": [
+      "The Taco Spot - 2 min drive",
+      "Mambos Pizza Express & Bar - 2 min drive",
+      "Giovanni's Pizzeria & Kitchen - 4 min drive",
+      "McDonald's - 4-5 min drive",
+      "Twistee Treat Berry Town - 5 min drive",
+      "Taco Bell - 6 min drive",
+      "Culver's - 6 min drive",
+      "7-Eleven - 13 min walk"
+    ],
+    "vrbo_area_blurb": "Located in Kissimmee, this villa is near theme parks and on a lake. ChampionsGate Golf Club and Mystic Dunes Golf Club ... Walt Disney World Resort and Disney's Animal Kingdom Theme Park ... Old Town ... ESPN Wide World of Sports Complex."
+  },
+  "house_rules": {
+    "check_in": "After 4:00 PM",
+    "check_out": "Before 10:00 AM",
+    "children": "Allowed (ages 0-17)",
+    "events": "No events allowed; onsite parties or group events strictly prohibited",
+    "pets": "No pets",
+    "smoking": "No smoking in the house or game room; allowed in the lanai-patio / pool area",
+    "pool": "No diving, glass, or unsupervised children in the pool area. Use the children's pool safety fence (required by law when children are present).",
+    "parking": "Maximum of 4 cars (description). Amenities note: 3-4 cars on driveway depending on size; some on street or clubhouse; do not park on grass or block sidewalk (per resort). Amenities note also says 'Up to 5 vehicles per villa' - CONFLICT, owner to confirm.",
+    "primary_renter_min_age": "Minimum age requirement for primary renter: TODO (age not stated)",
+    "check_in_process": "In person or via express check-in by calling Global, the management company; express check-in is a must for late arrivals and preferred.",
+    "booking_lead_time": "Minimal time from booking request to arrival is 7 days.",
+    "payments": "E-check payments accepted only if booking/payment made 30 days prior to arrival.",
+    "damage": "You will be responsible for any damage to the rental property caused by you or your party during your stay.",
+    "cancellation": "TODO: listing says 'generous cancellation terms' / 'relaxed refund policy' but no policy text on page"
+  },
+  "pricing_and_discounts": {
+    "fees": "No resort fees. Only an additional tax, cleaning fee plus tax, and VRBO charge. VRBO shows 'Our prices include all fees. No hidden fees.'",
+    "discounts": "10% discount for returning guests, military members, and stays of 7 nights or more (only one discount per reservation).",
+    "promos_time_limited": [
+      "NEW last minute discounts",
+      "FREE POOL HEAT for limited time (described as currently running a special)"
+    ],
+    "sample_price_seen": "$409 avg/night, $1,634 for 4 nights (Nov 9 - Nov 13) at scrape time - NOT for site use (prices change; non-goal)"
+  },
+  "reviews": {
+    "rating": 9.6,
+    "bestRating": 10,
+    "label": "Exceptional",
+    "count": 124,
+    "host_claim": "over 100 five out of 5 star reviews",
+    "snippets": [],
+    "snippets_TODO": "No review text is server-rendered in vrbo.html; real snippets need the owner's export or a manual copy with reviewer first name + date."
+  },
+  "host": {
+    "name": "James and Karen Smith",
+    "badge": "Premier Host (VRBO: 'They consistently provide great experiences for their guests')",
+    "languages": [
+      "English"
+    ],
+    "about": "I'm a grandfather of 15 and bought our place for family times. Our family/friends have vacationed in Kissimmee as renters for years and renting a dream home has come to be a better way to spend quality time all together. We love seeing Disney again through our kids and grandchildren's eyes and hope that everybody has that opportunity. We believe that people do business with people so call us so we can help it happen. We've done it all.",
+    "why_this_property": "Our favorite times are sitting around in the morning Floridian sunshine, having our cup of coffee the kids in the pool and watching the outside TV, we're always there. At night the kids and adults after a dip in the pool or a long day at the parks meet in the game room, singing, dancing, and playing the games (I always lose). There's been many a night upstairs when the adults and kids play poker. The clubhouse is the best we've seen and so close...Head over there DAY 1 and get excited. To us our place down in Kissimmee is our favorite place to be.",
+    "management_company": "Global (management company, 'over 30 years strong, 24/7 on call') - TODO full legal name/phone",
+    "phone": "TODO",
+    "email": "TODO"
+  },
+  "description_full": "See NEW last minute discounts + FREE POOL HEAT for limited time, only. Orlando-Kissimmee's Windsor at Westside's \"Second Star to the Right\". Luxury 7 bedroom pool-spa vacation home. WOW Karaoke TV  DJ lights game room. Patio TV, Just steps to amazing clubhouse! In Kissimmee! We offer generous cancellation terms.\n \nWindsor at Westside is an upscale gated resort completed 6 years ago. A really very short walk from our home is all it takes to the amazing world class 10,000 sq foot clubhouse featuring a bar, food, drinks, fireplace, sundries shop, Lazy River, huge zero entrance resort heated pool, Aquapark, lake, cabanas, large hot spa, multiple sports courts including pickleball, extended hours gym, covered playground, arcade room, frozen yogurt area, and activities for more fun in the sun.\n\nThen there's the world renown theme parks. 8-10 miles is all it takes to Disney’s World Drive and nearby  there's Universal Studio/ Sea World. Universal’s new parks opens this year! Excellent dining, golf, water parks, shopping, and outlets are all close by.\n\n Vacation Home: Your villa-home is designated as a Grand Collection villa. The professionally decorated exceptionally beautiful villa features 7 BR with 4 Kings (1 downstairs) sleeps 14-17*, a 1st floor parlor plus a huge 2nd floor parlor with a poker table and playstation4, 11 wall mounted smart TVs. There's an outside TV and free 100 Mbps- Wi-Fi /DVDs/ phone. At night poker and card games with the kids were great. Both Keurig type and regular drip coffee makers and fully furnished open design kitchen with everything you’d need. Downstairs master with its own bath (shower and separate tub) and separate access to pool is so convenient and there's another 1/2 bath downstairs, 5 1/2 baths in all. Pool and patio access to the bathroom is also very convenient. The full size GREAT gameroom man-cave, features a stage/karaoke machine, real DJ lights, cordless mikes and various karaoke CDs, for singing etc. The smart TV is also connected to the karaoke so that everybody can sing along, if you dare! Watch TV/YouTube music videos with lyrics. Connect ability for your music devices. There's a bluetooth PA system, a Megatouch touchscreen bar table game with over 100 games, bar table, pool table, and air hockey. The touchscreen game offers 1-4 players and has card games, trivia/puzzles,  action games, strategy, and kids games for hours of fun and competition. Our favorite game is Take 2....try it. Large connections 4 game. \n\nPrivate Pool-spa, you’ll love the hot tub while watching the outside TV.\nOutside, there's a lanai-patio, large table for dinning, DRYER, and private heated lit pool and spa, we're always there. Outdoor dryer for wet bathing suits and warm towels is a surprising luxury….Step outside, morning coffee, relaxing, planning the day, the kids in the pool and watching TV in the Florida sun...Ah heaven. We have pool children fence. \n\n The washer and 2 dryers are on the first floor and there's multiple children's accessories (high chair, 2 pack & play cribs, stair fence, and a stroller), linens, and  there's even blow driers.   You're just a few miles from Disney's magic and Universal/Seaworld and the  famous route 192 all its attractions/restaurants and a bit further is International Drive with its entertainment, night life, dining,  Eye and Convention Center. Tampa's Hardrock Casino is an hour away, if you're feeling lucky.\n\nOur family/friends have vacationed in Kissimmee as renters for years and renting a dream home has come to be a better way to spend quality time together. We hope that you consider renting from us during your next trip and we sincerely wish you and your family the very best experience possible.\n\nNo smoking inside game room or villa. Smoking permitted in the pool area. No pets. No diving, glass, or unsupervised children in the pool area. Use the children safety pool fence. It’s the law if there’s children. FREE POOL SPA-HEAT Spa/Jacuzzi heat requires the pool to be heated.)  No resort fees. Compare. There is only an additional tax, cleaning fee, plus tax, and VRBO charge (see price details). (*17 guests usually requires sleeping 4 children in the bunk bed-trundle room ( 1 on top, 2 bottom, 1 in pullout trundle) and 2 guests in the double bed.)\n\nPlease review POLICY and PAYMENT at the bottom of the\" Rate\" page. There’s a 10% discount for returning guests, military members, and stays for 7 nights or more (only one discount per reservation).\n\nConstruction in the resort totally complete for some years. Only starter amounts of toilet paper cleaning goods and garbage bags are provided and no starter food is provided (per law). There now is a maximum of 4 cars. If you have any questions or concerns please don't hesitate to ask. People do business with people give us a call and begin your vacation dreams.\nFree Pool/spa heat currently running  a special.  All prior reservations will remain unchanged.  \n\nWHY US?:\nREALLY VERY CLOSE to the clubhouse (800 feet) such a plus!\nGated WINDSOR AT WESTSIDE RESORT with a world class clubhouse and all but purchases are complimentary!\n WOW Game room Karaoke + stage with speakers-mikes-real DJ lighting- Megatouch gaming-TV-pool table- air hockey- bar table! Large Connect 4 game\nBeautifully decorated 7 bedroom villa with everything  and over 100 five out of 5 star reviews.\nOutdoor TV! and free spa/pool heat, outdoor closet with one of the two dryers, overhead fan, and kid pool fence. \nConvenient to theme parks, golf, restaurants, and attractions.\nOur great, friendly , professional management company over 30 years strong, 24/7hours on call. \nSmoke and pets free (outdoor smoking permitted). \nSmoke and CO detectors, fire extinguishers, emergency lighting, urgent care center just 2.5 miles away.\nOur updated vacation emails with all sorts of hints and shortcuts. Discounts and specials.\nEnhanced cleaning/sanitation as well as relaxed refund policy.\n\nWe have been asked to name our villa and loved 'the second star to the right' after Peter Pan's Neverland, a place where you never grow up. Enjoy.\nThank you",
+  "photos": [
+    {
+      "index": 0,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/3b624c59.jpg",
+      "caption_host": "clubhouse pool",
+      "alt_vrbo_generated": "A resort pool with a white pergola, lounge chairs, and palm trees.",
+      "file": "photos/00-3b624c59.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 1,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/8588a4cb.jpg",
+      "caption_host": "Private kitchen",
+      "alt_vrbo_generated": "A modern kitchen with dark cabinets, stainless steel appliances, and a central island with chairs.",
+      "file": "photos/01-8588a4cb.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 2,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/c956aba4.jpg",
+      "caption_host": "Living area",
+      "alt_vrbo_generated": "A spacious living area with a stone wall, a flat-screen TV, wicker furniture, a fireplace, and a ceiling fan.",
+      "file": "photos/02-c956aba4.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 898
+    },
+    {
+      "index": 3,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/4760a885.jpg",
+      "caption_host": "Bar (on property)",
+      "alt_vrbo_generated": "A bar area with a tiled backsplash, wicker chairs, and pendant lighting.",
+      "file": "photos/03-4760a885.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 4,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/8e540681.jpg",
+      "caption_host": "Bar serving food and drinks",
+      "alt_vrbo_generated": "A Tu Casa Bar & Lounge with outdoor seating and a pool area in the background.",
+      "file": "photos/04-8e540681.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 5,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/9751347f.jpg",
+      "caption_host": "Dining",
+      "alt_vrbo_generated": "A dining area with a glass table set for six, white chairs, and a vase with flowers.",
+      "file": "photos/05-9751347f.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 6,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/e4b23be4.jpg",
+      "caption_host": "Fitness facility",
+      "alt_vrbo_generated": "A gym with various exercise equipment, including treadmills and weight machines, arranged in a spacious layout.",
+      "file": "photos/06-e4b23be4.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 7,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/ef57346a.jpg",
+      "caption_host": "upstairs master king, a total of 4 kings",
+      "alt_vrbo_generated": "A bedroom with a bed, nightstands, a ceiling fan, and a painting on the wall.",
+      "file": "photos/07-ef57346a.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 8,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1498h1019x0y0-f7497e7e.jpg",
+      "caption_host": "Pier over lake",
+      "alt_vrbo_generated": "A wooden pier extending over a body of water, leading to a row of residential buildings with a uniform architectural style.",
+      "file": "photos/08-w1498h1019x0y0-f7497e7e.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 1088
+    },
+    {
+      "index": 9,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/43b62d68.jpg",
+      "caption_host": "Golf",
+      "alt_vrbo_generated": "A golf course with a putting green, sand bunkers, and trees in the background.",
+      "file": "photos/09-43b62d68.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "index": 10,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1920h1079x0y1-6003ac43.jpg",
+      "caption_host": "Exterior",
+      "alt_vrbo_generated": "A two-story house with a garage, surrounded by palm trees and a well-maintained lawn.",
+      "file": "photos/10-w1920h1079x0y1-6003ac43.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 899
+    },
+    {
+      "index": 11,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/779a2129.jpg",
+      "caption_host": "clubhouse arcade, free games",
+      "alt_vrbo_generated": "A gaming arcade with multiple racing and racing-like games, including 'Junkyard' and 'Easy Fury Super Cars'.",
+      "file": "photos/11-779a2129.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 12,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1439h1080x240y0-5a102260.jpg",
+      "caption_host": "Game room",
+      "alt_vrbo_generated": "A pool table in a room with a staircase, a table with chairs, and a Mickey Mouse-themed decoration.",
+      "file": "photos/12-w1439h1080x240y0-5a102260.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 1201
+    },
+    {
+      "index": 13,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/50948c8f.jpg",
+      "caption_host": "Universal and Islands of Adventure",
+      "alt_vrbo_generated": "A nighttime view of a theme park with illuminated structures, including a tall tower and roller coasters.",
+      "file": "photos/13-50948c8f.webp",
+      "use_on_site": false,
+      "exclude_reason": "third-party theme park image (Universal)",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 14,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w2000h1125x0y0-27a1fc7c.jpg",
+      "caption_host": "Clubhouse pool",
+      "alt_vrbo_generated": "A swimming pool with lounge chairs and umbrellas, surrounded by palm trees and a covered area with a water slide.",
+      "file": "photos/14-w2000h1125x0y0-27a1fc7c.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 15,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/178d7010.jpg",
+      "caption_host": "Dining",
+      "alt_vrbo_generated": "A spacious outdoor dining area with multiple tables and chairs, a ceiling fan, and large windows providing natural light.",
+      "file": "photos/15-178d7010.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 16,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/6f6402b9.jpg",
+      "caption_host": "upstairs loft",
+      "alt_vrbo_generated": "A modern living room with a glass-fronted entertainment unit, a ceiling fan, and a sectional sofa.",
+      "file": "photos/16-6f6402b9.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 17,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1910h1078x0y1-72989c14.jpg",
+      "caption_host": "Room",
+      "alt_vrbo_generated": "A bedroom with two twin beds, a ceiling fan, a window with blinds, and a door.",
+      "file": "photos/17-w1910h1078x0y1-72989c14.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 903
+    },
+    {
+      "index": 18,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1913h1080x3y0-4cf2ec74.jpg",
+      "caption_host": "Game room: Pool, air hockey, karaoke, bar touchscreen game, TV, DJ lights+mikes",
+      "alt_vrbo_generated": "A pool table, a billiards cue, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool table with balls, a pool",
+      "file": "photos/18-w1913h1080x3y0-4cf2ec74.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 903
+    },
+    {
+      "index": 19,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/4fcde603.jpg",
+      "caption_host": "Point of interest",
+      "alt_vrbo_generated": "A sign for 'Windsor at Westside' with a pergola structure, a pool, and a stone building.",
+      "file": "photos/19-4fcde603.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 20,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/0650d9f2.jpg",
+      "caption_host": "Point of interest",
+      "alt_vrbo_generated": "Mickey and Minnie Mouse posing in front of a castle.",
+      "file": "photos/20-0650d9f2.webp",
+      "use_on_site": false,
+      "exclude_reason": "third-party character image (Disney)",
+      "width": 1600,
+      "height": 1006
+    },
+    {
+      "index": 21,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/43400c63.jpg",
+      "caption_host": "Sport court",
+      "alt_vrbo_generated": "An outdoor basketball court with multiple hoops, surrounded by a fence and palm trees.",
+      "file": "photos/21-43400c63.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 22,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/bdfad9b2.jpg",
+      "caption_host": "down stairs master bath",
+      "alt_vrbo_generated": "A modern bathroom with a glass-enclosed shower, a freestanding bathtub, and a vanity with a sink and countertop.",
+      "file": "photos/22-bdfad9b2.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 23,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/ee754815.jpg",
+      "caption_host": "Lazy River, just wonderful !",
+      "alt_vrbo_generated": "A pool area with lounge chairs and palm trees.",
+      "file": "photos/23-ee754815.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 24,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1918h1080x0y0-3bac38c9.jpg",
+      "caption_host": "Living area",
+      "alt_vrbo_generated": "A living room with a black leather sofa, a glass coffee table, and a patterned armchair.",
+      "file": "photos/24-w1918h1080x0y0-3bac38c9.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 901
+    },
+    {
+      "index": 25,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1919h1080x0y0-458e33ff.jpg",
+      "caption_host": "Villa lanai, pool, spa, TV and patio",
+      "alt_vrbo_generated": "A spacious patio with a wooden table and chairs, a ceiling fan, and a view of a swimming pool and neighboring houses.",
+      "file": "photos/25-w1919h1080x0y0-458e33ff.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 26,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/6c4354a9.jpg",
+      "caption_host": "Room",
+      "alt_vrbo_generated": "A bedroom with two beds, a ceiling fan, a window with blinds, a white dresser, and a television on the wall.",
+      "file": "photos/26-6c4354a9.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 27,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/94e339ae.jpg",
+      "caption_host": "Sport court",
+      "alt_vrbo_generated": "A beach volleyball court with a net, surrounded by palm trees and houses.",
+      "file": "photos/27-94e339ae.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 28,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/ed6e1998.jpg",
+      "caption_host": "down king stairs master access to pool",
+      "alt_vrbo_generated": "A bedroom with a bed, a desk, a dresser, a ceiling fan, and a TV.",
+      "file": "photos/28-ed6e1998.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 29,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/5afc8922.jpg",
+      "caption_host": "2nd floor king",
+      "alt_vrbo_generated": "A bedroom with a bed, two bedside tables, a ceiling fan, a window with blinds, and a view of a body of water.",
+      "file": "photos/29-5afc8922.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 30,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/19e97d72.jpg",
+      "caption_host": "2nd floor king bedroom",
+      "alt_vrbo_generated": "A bedroom with a bed, a dresser, a ceiling fan, a television, and a door leading to another room.",
+      "file": "photos/30-19e97d72.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 31,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/8cb75d69.jpg",
+      "caption_host": "bunk beds twin over full and full trundle, could sleep 5 children",
+      "alt_vrbo_generated": "A bunk bed with a desk and drawers, a Minion plush toy, and a Mickey Mouse wall decal.",
+      "file": "photos/31-8cb75d69.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 32,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/2732279a.jpg",
+      "caption_host": "Downstairs living room",
+      "alt_vrbo_generated": "A living room with a sofa, armchairs, a coffee table, a TV, and a ceiling fan.",
+      "file": "photos/32-2732279a.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 33,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/569d1586.jpg",
+      "caption_host": "parlor",
+      "alt_vrbo_generated": "A living room with a beige sectional sofa, a glass coffee table, patterned rugs, and a ceiling fan.",
+      "file": "photos/33-569d1586.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 34,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/195e5123.jpg",
+      "caption_host": "Pool",
+      "alt_vrbo_generated": "A water slide with a green and red design, surrounded by palm trees and rocky cliffs.",
+      "file": "photos/34-195e5123.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 901
+    },
+    {
+      "index": 35,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1918h1280x0y0-92e3f74b.jpg",
+      "caption_host": "Pool",
+      "alt_vrbo_generated": "A pool area with lounge chairs, umbrellas, and a palm tree.",
+      "file": "photos/35-w1918h1280x0y0-92e3f74b.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 1068
+    },
+    {
+      "index": 36,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/248089e9.jpg",
+      "caption_host": "Pool",
+      "alt_vrbo_generated": "A poolside area with lounge chairs and umbrellas, a covered pergola, and a building in the background.",
+      "file": "photos/36-248089e9.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 37,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/01aa19b7.jpg",
+      "caption_host": "clubhouse water playground",
+      "alt_vrbo_generated": "A water park with slides and a pool.",
+      "file": "photos/37-01aa19b7.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 38,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1916h1080x0y0-d3a3a15e.jpg",
+      "caption_host": "Hot Tub, Pool, Outside TV, and Seating (always there)",
+      "alt_vrbo_generated": "A swimming pool with two hot tubs, surrounded by a covered patio area with seating and a ceiling fan.",
+      "file": "photos/38-w1916h1080x0y0-d3a3a15e.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 902
+    },
+    {
+      "index": 39,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/4dd88bab.jpg",
+      "caption_host": "AquaPark-Knee deep for the younger children",
+      "alt_vrbo_generated": "A water park with a pool, slides, and a play structure.",
+      "file": "photos/39-4dd88bab.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "index": 40,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/d06e3fe6.jpg",
+      "caption_host": "Children's area",
+      "alt_vrbo_generated": "A playground with a slide, climbing structures, and a covered area.",
+      "file": "photos/40-d06e3fe6.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 41,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/894987f0.jpg",
+      "caption_host": "Sea World",
+      "alt_vrbo_generated": "A roller coaster with a blue track and a large shark design.",
+      "file": "photos/41-894987f0.webp",
+      "use_on_site": false,
+      "exclude_reason": "third-party theme park image (SeaWorld)",
+      "width": 1600,
+      "height": 898
+    },
+    {
+      "index": 42,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1917h1080x0y0-8d94cbad.jpg",
+      "caption_host": "Pool",
+      "alt_vrbo_generated": "A pool area with a covered seating area, lounge chairs, and umbrellas.",
+      "file": "photos/42-w1917h1080x0y0-8d94cbad.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 901
+    },
+    {
+      "index": 43,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1996h1125x0y0-97abadb1.jpg",
+      "caption_host": "Pool",
+      "alt_vrbo_generated": "A pool area with blue canopies and white pillars.",
+      "file": "photos/43-w1996h1125x0y0-97abadb1.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 902
+    },
+    {
+      "index": 44,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1915h1080x0y0-0dccc378.jpg",
+      "caption_host": "Private hot tub and pool",
+      "alt_vrbo_generated": "A swimming pool with clear water, a hot tub, and a patio area with chairs and a table.",
+      "file": "photos/44-w1915h1080x0y0-0dccc378.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 902
+    },
+    {
+      "index": 45,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/6d0a3d86.jpg",
+      "caption_host": "Pool",
+      "alt_vrbo_generated": "A patio area with a pool, outdoor seating, and a view of a garden.",
+      "file": "photos/45-6d0a3d86.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "index": 46,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/w1834h1029x5y5-ac7958cd.jpg",
+      "caption_host": "Lyrics-video to sing along from YouTube on the smart TV",
+      "alt_vrbo_generated": "A television screen displaying a character with a cape, with the text 'And it looks like I'm the queen' visible.",
+      "file": "photos/46-w1834h1029x5y5-ac7958cd.webp",
+      "use_on_site": true,
+      "exclude_reason": null,
+      "width": 1600,
+      "height": 898
+    },
+    {
+      "index": 47,
+      "source_url": "https://media.vrbo.com/lodging/34000000/33570000/33566400/33566395/f47c9bba.jpg",
+      "caption_host": "Grandsons karaoke having fun",
+      "alt_vrbo_generated": "A group of people in a room with a blue wall and a white railing.",
+      "file": "photos/47-f47c9bba.webp",
+      "use_on_site": false,
+      "exclude_reason": "shows identifiable people (host grandsons)",
+      "width": 1600,
+      "height": 1194
+    }
+  ],
+  "booking": {
+    "v1_path": "https://www.vrbo.com/4159245ha",
+    "direct_booking": "TODO: owner decision"
+  },
+  "TODO": [
+    "Street address / whether to publish",
+    "Exact beds per bedroom",
+    "Cancellation policy text",
+    "Real review snippets",
+    "Primary renter minimum age",
+    "Host/management phone + email for site",
+    "Custom domain",
+    "Photo usage rights confirmation (host is James and Karen Smith)",
+    "Parking max 4 vs 5 conflict",
+    "Year built (listing says 'completed 6 years ago')"
+  ]
+}
