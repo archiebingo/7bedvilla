@@ -28,7 +28,7 @@
 		<script>
 			document.addEventListener('click', function (event) {
 				var link = event.target instanceof Element ? event.target.closest('a[href]') : null;
-				if (!link || link.hostname !== 'www.vrbo.com' || link.pathname !== '/4159245ha') return;
+				if (!link || !/^check dates/i.test(link.textContent.trim()) || link.hostname !== 'www.vrbo.com' || link.pathname !== '/4159245ha') return;
 				gtag('event', 'check_dates', {
 					link_url: link.href,
 					link_text: link.textContent.trim(),
