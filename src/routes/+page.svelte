@@ -73,10 +73,9 @@
 </header>
 
 <main id="main">
-	<section id="top" class="relative isolate overflow-hidden bg-night text-white">
-		<div class="absolute inset-0 -z-10 opacity-60"><Img p={hero} eager sizes="100vw" /></div>
-		<div class="absolute inset-0 -z-10 bg-gradient-to-t from-night via-night/60 to-night/10"></div>
-		<div class="mx-auto max-w-6xl px-4 pt-40 pb-12 md:pt-64">
+	<section id="top" class="overflow-hidden bg-night text-white">
+		<div class="aspect-[16/9] w-full"><Img p={hero} eager sizes="100vw" /></div>
+		<div class="mx-auto max-w-6xl px-4 py-10 md:py-12">
 			<div id="villa">
 				<p class="text-sm font-semibold tracking-wide text-star uppercase">Windsor at Westside · Kissimmee, Florida</p>
 				<h1 class="mt-2 text-4xl font-extrabold leading-tight md:text-6xl">{content.name}</h1>
