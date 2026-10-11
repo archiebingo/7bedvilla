@@ -19,7 +19,7 @@ describe('nearby places', () => {
 
 	it('gives every place an https URL, a drive, and coordinates', () => {
 		expect(places.length).toBeGreaterThanOrEqual(12);
-		expect(places.length).toBeLessThanOrEqual(18);
+		expect(places.length).toBeLessThanOrEqual(20);
 		const ids = new Set<string>();
 		for (const place of places) {
 			expect(place.url.startsWith('https://'), place.id).toBe(true);
@@ -57,7 +57,7 @@ describe('nearby places', () => {
 		for (const gone of ['Northeast Regional Park', 'Lake Davenport', 'Highland Reserve', 'The Taco Spot', 'Poinciana Station', '2.5 miles']) {
 			expect(blob).not.toContain(gone);
 		}
-		expect(blob).toContain('MD Now Urgent Care');
+		expect(blob).toContain('AdventHealth Four Corners ER');
 		const disney = content.faq.find((item) => item.q.startsWith('How far is the villa from Disney'));
 		expect(disney?.a).toContain('20-minute');
 		expect(disney?.a).toContain('Magic Kingdom');
@@ -309,9 +309,9 @@ describe('built location map', () => {
 		expect(html).toContain('data-place="villa"');
 		expect(html).toContain('loading="lazy"');
 		expect(html).toContain('/maps/regional.svg');
-		expect(html).toContain('/maps/local.svg');
+		expect(html).not.toContain('/maps/local.svg');
 		expect(html).toContain('data-legend="regional"');
-		expect(html).toContain('data-legend="local"');
+		expect(html).not.toContain('data-legend="local"');
 		expect(html).toContain('https://www.openstreetmap.org/copyright');
 		expect(html).toContain('Approximate drive times from Windsor at Westside');
 		expect(html).toContain('28.313,-81.647');
