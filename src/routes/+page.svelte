@@ -75,13 +75,14 @@
 <main id="main">
 	<section id="top" class="overflow-hidden bg-night text-white">
 		<div class="aspect-[16/9] w-full"><Img p={hero} eager sizes="100vw" /></div>
-		<div class="mx-auto max-w-6xl px-4 py-10 md:py-12">
+		<div class="relative mx-auto max-w-6xl px-4 py-10 md:py-12 lg:-mt-28 lg:pt-0">
+			<div class="bg-night lg:max-w-3xl lg:rounded-t-2xl lg:p-8">
 			<div id="villa">
 				<p class="text-sm font-semibold tracking-wide text-star uppercase">Windsor at Westside · Kissimmee, Florida</p>
-				<h1 class="mt-2 text-4xl font-extrabold leading-tight md:text-6xl">{content.name}</h1>
+				<h1 class="mt-2 text-4xl font-extrabold leading-tight md:text-5xl">{content.name}</h1>
 			</div>
 			<p class="mt-3 max-w-2xl text-lg text-white/90">
-				Luxury 7-bedroom villa rental in Kissimmee for family vacations and group getaways. Sleeps up to 17, with a private pool, spa and karaoke &amp; DJ-light game room at Windsor at Westside—an 800-foot walk from the clubhouse and about 20 minutes from Disney’s Animal Kingdom.
+				Luxury 7-bedroom villa near Disney, sleeping up to 17. Enjoy a private pool and spa, karaoke game room, and resort clubhouse just an 800-foot walk away.
 			</p>
 			<p class="mt-4 flex flex-wrap gap-2 text-sm">
 				<span class="rounded-full bg-white/15 px-3 py-1">7 bedrooms</span>
@@ -91,6 +92,7 @@
 				<span class="rounded-full bg-white/15 px-3 py-1">★ {content.rating.rating}/10 · {content.rating.count} reviews</span>
 			</p>
 			<a href={content.bookUrl} rel="noopener" class="mt-6 inline-block rounded-full bg-star px-6 py-3 text-lg font-bold text-night shadow-lg">Check dates on Vrbo</a><p class="mt-4 text-lg font-semibold text-star">Pool &amp; spa heat included · No resort fees</p><p class="mt-1 text-sm text-white/80">Pool and spa heat included as a current special.</p>
+			</div>
 		</div>
 	</section>
 
