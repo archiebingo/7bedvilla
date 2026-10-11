@@ -86,7 +86,8 @@
 			<p class="mt-4 flex flex-wrap gap-2 text-sm">
 				<span class="rounded-full bg-white/15 px-3 py-1">7 bedrooms</span>
 				<span class="rounded-full bg-white/15 px-3 py-1">5.5 baths</span>
-				<span class="rounded-full bg-white/15 px-3 py-1">Sleeps 17</span>
+				<span class="rounded-full bg-white/15 px-3 py-1">Up to 17 guests</span>
+				<span class="rounded-full bg-white/15 px-3 py-1">11 sleeping surfaces including bunk levels &amp; trundle</span>
 				<span class="rounded-full bg-white/15 px-3 py-1">★ {content.rating.rating}/10 · {content.rating.count} reviews</span>
 			</p>
 			<a href={content.bookUrl} rel="noopener" class="mt-6 inline-block rounded-full bg-star px-6 py-3 text-lg font-bold text-night shadow-lg">Check dates on Vrbo</a><p class="mt-4 text-lg font-semibold text-star">Pool &amp; spa heat included · No resort fees</p><p class="mt-1 text-sm text-white/80">Pool and spa heat included as a current special.</p>
@@ -146,27 +147,55 @@
 
 	<section id="bedrooms" aria-labelledby="bed-h" class="bg-slate-50 py-12">
 		<div class="mx-auto max-w-6xl px-4">
-			<h2 id="bed-h" class="text-3xl font-bold text-night">7 bedrooms for families and groups of 14–17</h2>
-			<p class="mt-2 max-w-3xl text-slate-700">7 bedrooms with 4 kings (1 downstairs) and 5½ baths. Sleeps 14–17: 17 guests usually means 4 children in the bunk-trundle room and 2 guests in the double bed.</p>
-			<ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-				{#each content.bedrooms as b, i (i)}
-					<li class="overflow-hidden rounded-2xl bg-white shadow-sm">
-						{#if b.photo !== null}
-							<div class="aspect-[4/3]"><Img p={{ ...photoByIndex(content.photos, b.photo), alt: `${b.name} with ${b.beds.toLowerCase()} at Second Star to the Right villa in Kissimmee` }} sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" /></div>
-						{/if}
-						<div class="p-4">
-							<h3 class="font-semibold text-night">{b.name}</h3>
-							<p class="text-slate-700">{b.beds}</p>
-							{#if b.notes}<p class="text-sm text-slate-500">{b.notes}</p>{/if}
+			<p class="text-sm font-semibold uppercase tracking-wide text-lagoon">Room for your whole group</p>
+			<h2 id="bed-h" class="mt-2 text-3xl font-bold text-night">Find everyone’s favorite room</h2>
+			<p class="mt-3 flex flex-wrap gap-x-5 gap-y-2 font-semibold text-night"><span>Up to 17 guests</span><span>7 bedrooms</span><span>11 sleeping surfaces*</span><span>5½ bathrooms</span></p>
+			<p class="mt-3 text-slate-700">Four king bedrooms, space for the kids, and a ground-floor suite. Choose a room to explore its bed configuration.</p>
+			<div class="mt-6 grid items-start gap-6 lg:grid-cols-[2fr_1fr]">
+				<div>
+					<fieldset class="bedroom-selector min-w-0">
+						<legend class="mb-3 font-semibold text-night">Explore the bedrooms</legend>
+						<div class="flex flex-wrap gap-2">
+							{#each content.bedrooms as b, i (i)}
+								<label class="room-choice relative cursor-pointer rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm font-semibold text-night">
+									<input class="sr-only" type="radio" name="bedroom" value={i} checked={i === 0} aria-controls="bedroom-panel-{i}" />
+									{b.name}
+								</label>
+							{/each}
 						</div>
-					</li>
-				{/each}
-			</ul>
+						<div class="mt-4">
+							{#each content.bedrooms as b, i (i)}
+								<section id="bedroom-panel-{i}" class="bedroom-panel overflow-hidden rounded-2xl bg-white shadow-sm" aria-labelledby="bedroom-title-{i}">
+									{#if b.photo !== null}
+										<div class="aspect-video"><Img p={{ ...photoByIndex(content.photos, b.photo), alt: `${b.name} with ${b.beds.toLowerCase()} at Second Star to the Right villa in Kissimmee` }} sizes="(min-width: 1024px) 65vw, 100vw" /></div>
+									{:else}
+										<div class="flex aspect-video items-center justify-center bg-star/15 p-6"><p class="text-center text-2xl font-semibold text-night">1 double bed + 1 twin bed</p></div>
+									{/if}
+									<div class="p-5"><h3 id="bedroom-title-{i}" class="text-xl font-bold text-night">{b.name}</h3><p class="mt-1 font-semibold text-lagoon">{b.beds}</p><p class="mt-2 text-slate-600">{b.notes}</p></div>
+								</section>
+							{/each}
+						</div>
+					</fieldset>
+					<p class="mt-3 text-sm text-slate-600">*Includes both bunk levels and the pull-out trundle. Maximum occupancy is 17 guests.</p>
+					<a href="#floor-plans" class="mt-3 inline-block font-semibold text-lagoon underline">See where each room is on the floor plans ↓</a>
+				</div>
+				<aside aria-labelledby="bed-booking-h" class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+					<p class="text-xs font-semibold uppercase tracking-wide text-lagoon">Plan your stay</p>
+					<h3 id="bed-booking-h" class="mt-2 text-2xl font-bold text-night">A getaway everyone can share</h3>
+					<p class="mt-5 text-3xl font-bold text-night">★ {content.rating.rating} / {content.rating.bestRating}</p>
+					<p class="mt-1 text-slate-700">{content.rating.label} · {content.rating.count} guest reviews on Vrbo</p>
+					<a href={content.bookUrl} rel="noopener" class="mt-2 inline-block text-sm text-lagoon underline">Read guest reviews on Vrbo ↗</a>
+					<a href={content.bookUrl} rel="noopener" class="mt-6 block rounded-full bg-star px-5 py-3 text-center font-bold text-night">Check dates on Vrbo</a>
+					<p class="mt-3 text-sm text-slate-600">View live availability, the full price and booking terms on Vrbo. Your booking is completed there.</p>
+					<ul class="mt-5 space-y-2 border-t border-slate-200 pt-5 text-sm text-slate-700"><li>✓ Pool &amp; spa heat included — current special</li><li>✓ No resort fees</li><li>✓ 5 full bathrooms + 1 half bathroom</li></ul>
+				</aside>
+			</div>
 		</div>
 	</section>
 
 	<section id="floor-plans" aria-labelledby="floor-plans-h" class="mx-auto max-w-6xl px-4 py-12">
 		<h2 id="floor-plans-h" class="text-3xl font-bold text-night">Explore the villa floor plans</h2>
+		<p class="mt-3 font-semibold text-lagoon">Up to 17 guests · 7 bedrooms · 11 sleeping surfaces · 5½ bathrooms</p>
 		<p class="mt-2 max-w-3xl text-slate-700">Plan your stay together: one king suite downstairs and six bedrooms upstairs. Select a plan to open the full-size image.</p>
 		<div class="mt-6 grid gap-6 sm:grid-cols-2">
 			<figure class="rounded-2xl border border-slate-200 bg-white p-5">
@@ -317,6 +346,8 @@
 
 	<section aria-labelledby="cta-h" class="bg-night py-14 text-center text-white">
 		<h2 id="cta-h" class="text-3xl font-bold">Your second star to the right</h2>
+		<p class="mt-3 px-4 text-white/90">Up to 17 guests · 7 bedrooms · 11 sleeping surfaces · 5½ bathrooms</p>
+		<p class="mt-3 text-star">★ {content.rating.rating}/{content.rating.bestRating} · {content.rating.count} guest reviews on Vrbo</p>
 		<p class="mx-auto mt-2 max-w-xl text-white/80">Named after Peter Pan’s Neverland, “a place where you never grow up.”</p>
 		<a href={content.bookUrl} rel="noopener" class="mt-6 inline-block rounded-full bg-star px-8 py-3 text-lg font-bold text-night">Check dates &amp; book</a><p class="mx-auto mt-4 max-w-xl px-4 text-lg font-semibold text-star">Your stay includes pool and spa heat—no extra heating fee.</p><p class="mt-1 text-sm text-white/80">Current special.</p>
 	</section>
@@ -329,3 +360,19 @@
 <div class="fixed inset-x-0 bottom-0 z-30 border-t border-white/10 bg-night/95 p-3 md:hidden">
 	<a href={content.bookUrl} rel="noopener" class="block rounded-full bg-star py-3 text-center font-bold text-night">Check dates · Sleeps 17</a>
 </div>
+
+<style>
+	.room-choice:has(input:checked) { background: #141c3a; border-color: #141c3a; color: white; }
+	.room-choice:has(input:focus-visible) { outline: 3px solid #327979; outline-offset: 3px; }
+	/* Native radio controls keep the selector working without client-side JavaScript. */
+	@supports selector(:has(input:checked)) {
+		.bedroom-panel { display: none; }
+		.bedroom-selector:has(input[value="0"]:checked) #bedroom-panel-0 { display: block; }
+		.bedroom-selector:has(input[value="1"]:checked) #bedroom-panel-1 { display: block; }
+		.bedroom-selector:has(input[value="2"]:checked) #bedroom-panel-2 { display: block; }
+		.bedroom-selector:has(input[value="3"]:checked) #bedroom-panel-3 { display: block; }
+		.bedroom-selector:has(input[value="4"]:checked) #bedroom-panel-4 { display: block; }
+		.bedroom-selector:has(input[value="5"]:checked) #bedroom-panel-5 { display: block; }
+		.bedroom-selector:has(input[value="6"]:checked) #bedroom-panel-6 { display: block; }
+	}
+</style>
