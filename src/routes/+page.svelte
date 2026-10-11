@@ -166,6 +166,28 @@
 		</div>
 	</section>
 
+	<section id="floor-plans" aria-labelledby="floor-plans-h" class="mx-auto max-w-6xl px-4 py-12">
+		<h2 id="floor-plans-h" class="text-3xl font-bold text-night">Explore the villa floor plans</h2>
+		<p class="mt-2 max-w-3xl text-slate-700">Plan your stay together: one king suite downstairs and six bedrooms upstairs. Select a plan to open the full-size image.</p>
+		<div class="mt-6 grid gap-6 sm:grid-cols-2">
+			<figure class="rounded-2xl border border-slate-200 bg-white p-5">
+				<figcaption class="mb-4"><h3 class="text-xl font-semibold text-night">First floor</h3><p class="mt-1 text-slate-600">King suite, kitchen, living and dining areas, game room, covered lanai, pool and hot tub.</p></figcaption>
+				<a href="/first-floor.webp" target="_blank" rel="noopener" class="block rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-lagoon" aria-label="Open full-size first-floor plan in a new tab">
+					<img src="/first-floor.webp" alt="First-floor villa plan with a king bed in the owner's suite, game room in the former garage, and hot tub in the pool's lower-right corner" width="787" height="1999" loading="lazy" decoding="async" class="mx-auto h-[32rem] w-full object-contain" />
+					<span class="mt-4 block text-center font-semibold text-lagoon underline">View first floor full size ↗</span>
+				</a>
+			</figure>
+			<figure class="rounded-2xl border border-slate-200 bg-white p-5">
+				<figcaption class="mb-4"><h3 class="text-xl font-semibold text-night">Second floor</h3><p class="mt-1 text-slate-600">Bedrooms 2, 4 and 5: king beds. Bedroom 3: two twins. Bedroom 6: double bed and twin. Bedroom 7: bunk bed with a large lower bed and trundle.</p></figcaption>
+				<a href="/second-floor.webp" target="_blank" rel="noopener" class="block rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-lagoon" aria-label="Open full-size second-floor plan in a new tab">
+					<img src="/second-floor.webp" alt="Second-floor villa plan showing six bedrooms with labeled bed types, four bathrooms, a loft and stairs" width="803" height="1959" loading="lazy" decoding="async" class="mx-auto h-[32rem] w-full object-contain" />
+					<span class="mt-4 block text-center font-semibold text-lagoon underline">View second floor full size ↗</span>
+				</a>
+			</figure>
+		</div>
+		<p class="mt-4 text-sm text-slate-500">Illustrative plans adapted from the original drawings, with current bed labels. The former garage is now the game room. Dimensions are approximate and based on the original plans.</p>
+	</section>
+
 	<section id="amenities" aria-labelledby="amen-h" class="mx-auto max-w-6xl px-4 py-12">
 		<h2 id="amen-h" class="text-3xl font-bold text-night">Amenities</h2>
 		<div class="mt-6 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
