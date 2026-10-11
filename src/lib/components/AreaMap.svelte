@@ -1,11 +1,10 @@
 <script lang="ts">
-	import { localScene, regionalScene, MAP_FONT, PIN_COLOR, STAR_POINTS, VILLA_COLOR, type MapLabel, type MapScene } from '$lib/area-map';
+	import { regionalScene, MAP_FONT, PIN_COLOR, STAR_POINTS, VILLA_COLOR, type MapLabel, type MapScene } from '$lib/area-map';
 	import type { NearbyOrigin, NearbyPlace } from '$lib/nearby';
 
 	let { origin, places }: { origin: NearbyOrigin; places: NearbyPlace[] } = $props();
 
 	const regional = $derived(regionalScene(origin, places));
-	const local = $derived(localScene(origin, places));
 
 	function desc(scene: MapScene, zoom: string) {
 		const pins = scene.pins
@@ -118,15 +117,5 @@
 		'Attractions around Windsor at Westside',
 		'OpenStreetMap basemap with a pin for the villa and every nearby place',
 		'OpenStreetMap basemap of Interstate 4, US-192, US-27, SR-417, SR-429, and World Drive, with lakes and towns from Winter Haven to Orlando'
-	)}
-	{@render map(
-		local,
-		'local',
-		'local-map-title',
-		'local-map-desc',
-		'Closer to the villa',
-		'Closer places, each under an 8-mile drive from Windsor at Westside',
-		'Closer OpenStreetMap basemap of the villa and places under 8 miles',
-		'OpenStreetMap basemap closer to the villa, showing US-192, SR-429, Interstate 4, and World Drive'
 	)}
 </div>
