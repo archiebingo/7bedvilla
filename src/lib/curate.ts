@@ -21,7 +21,7 @@ const REPLACEMENTS: Record<string, string> = {
 		'Washer and 2 dryers on the first floor, with one dryer in the outdoor closet.',
 	"Listed as wheelchair accessible with note: 'Several inch step to pool, door, and shower on first floor'":
 		'Wheelchair accessible, with a several-inch step to the pool, door, and shower on the first floor.',
-	'Urgent care center about 2.5 miles away': 'MD Now Urgent Care — Clermont, about 11 min / 5 mi',
+	'Urgent care center about 2.5 miles away': 'AdventHealth Four Corners ER, about 8 min / 3 mi (emergency room)',
 	"About 800 feet from the villa ('REALLY VERY CLOSE')": 'About 800 feet from the villa',
 	'Starter amounts of toilet paper, cleaning goods and garbage bags only; no starter food (per law)':
 		'Starter amounts of toilet paper, cleaning goods and garbage bags only; no starter food.'
