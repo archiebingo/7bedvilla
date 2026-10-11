@@ -238,19 +238,13 @@ export function curate(listing: ListingInput): Content {
 		],
 		gameRoom: { items: lines(listing.game_room.items), host_tip: listing.game_room.host_tip },
 		bedrooms: [
-			{
-				name: 'Downstairs master suite',
-				beds: 'King',
-				notes: 'Own bath with shower and separate tub; separate access to the pool',
-				photo: 28
-			},
-			{ name: 'Upstairs master', beds: 'King', notes: '', photo: 7 },
-			{ name: '2nd-floor bedroom', beds: 'King', notes: '', photo: 29 },
-			{ name: '2nd-floor bedroom', beds: 'King', notes: '', photo: 30 },
-			{ name: 'Bunk room', beds: 'Twin-over-full bunk + full trundle', notes: 'Could sleep 5 children', photo: 31 },
-			{ name: 'Twin room', beds: 'Two twin beds', notes: '', photo: 17 },
-			{ name: 'Double room', beds: 'Double bed', notes: 'Sleeps 2', photo: null }
-			// TODO(owner): confirm exact bed type per room; the listing has no rooms-and-beds table.
+			{ name: 'Owner’s suite', beds: '1 king bed', notes: 'Ground floor · En-suite bathroom with shower and separate tub; separate pool access.', photo: 28 },
+			{ name: 'Bedroom 2', beds: '1 king bed', notes: 'Second floor · King suite.', photo: 7 },
+			{ name: 'Bedroom 3', beds: '2 twin beds', notes: 'Second floor · Separate beds for friends or children.', photo: 17 },
+			{ name: 'Bedroom 4', beds: '1 king bed', notes: 'Second floor · A king bedroom for couples.', photo: 29 },
+			{ name: 'Bedroom 5', beds: '1 king bed', notes: 'Second floor · A king bedroom for couples.', photo: 30 },
+			{ name: 'Bedroom 6', beds: '1 double bed + 1 twin bed', notes: 'Second floor · Flexible sleeping arrangements for your group.', photo: null },
+			{ name: 'Bedroom 7', beds: 'Bunk bed with a large lower bed + trundle', notes: 'Second floor · Upper bunk, larger lower bed and pull-out trundle.', photo: 31 }
 		],
 		amenityGroups: [
 			{ title: 'Pool & outdoor', items: lines(listing.pool_and_outdoor) },
