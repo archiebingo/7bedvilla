@@ -3,7 +3,7 @@ import type { Photo } from './photo';
 
 /** Photos actually rendered or referenced in JSON-LD. Photo 46 (Disney character on the TV) is omitted. */
 const RENDERED_INDEXES = [
-	0, 1, 2, 5, 6, 7, 10, 11, 12, 14, 15, 16, 17, 18, 19, 22, 23, 25, 28, 29, 30, 31, 33, 38, 39, 44
+	0, 1, 2, 5, 6, 7, 10, 11, 12, 14, 15, 16, 17, 18, 19, 22, 23, 25, 26, 28, 29, 30, 31, 33, 38, 39, 44
 ] as const;
 
 const DROP_INDEXES = new Set([46]);
@@ -240,10 +240,10 @@ export function curate(listing: ListingInput): Content {
 		bedrooms: [
 			{ name: 'Owner’s suite', beds: '1 king bed', notes: 'Ground floor · En-suite bathroom with shower and separate tub; separate pool access.', photo: 28 },
 			{ name: 'Bedroom 2', beds: '1 king bed', notes: 'Second floor · King suite.', photo: 7 },
-			{ name: 'Bedroom 3', beds: '2 twin beds', notes: 'Second floor · Separate beds for friends or children.', photo: 17 },
+			{ name: 'Bedroom 3', beds: '2 twin beds', notes: 'Second floor · Separate beds for friends or children.', photo: 26 },
 			{ name: 'Bedroom 4', beds: '1 king bed', notes: 'Second floor · A king bedroom for couples.', photo: 29 },
 			{ name: 'Bedroom 5', beds: '1 king bed', notes: 'Second floor · A king bedroom for couples.', photo: 30 },
-			{ name: 'Bedroom 6', beds: '1 double bed + 1 twin bed', notes: 'Second floor · Flexible sleeping arrangements for your group.', photo: null },
+			{ name: 'Bedroom 6', beds: '1 double bed + 1 twin bed', notes: 'Second floor · Flexible sleeping arrangements for your group.', photo: 17 },
 			{ name: 'Bedroom 7', beds: 'Bunk bed with a large lower bed + trundle', notes: 'Second floor · Upper bunk, larger lower bed and pull-out trundle.', photo: 31 }
 		],
 		amenityGroups: [
