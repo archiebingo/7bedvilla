@@ -8,13 +8,13 @@
 	import { vacationRentalLd, faqLd, breadcrumbLd, ldScript } from '$lib/seo';
 	import { SITE_URL, TITLE, DESCRIPTION } from '$lib/site';
 
-	const hero = photoByIndex(content.photos, 38);
+	const hero = photoByIndex(content.photos, 0);
 	const og = photoByIndex(content.photos, 44);
 	const ogImage = `${SITE_URL}${og.src}`;
 	const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${content.geo.latitude.toFixed(3)},${content.geo.longitude.toFixed(3)}`;
 	const gameRoomPhotos = [18, 12].map((index) => photoByIndex(content.photos, index));
 	const clubPhotos = [23, 14, 39, 11, 19, 6].map((index) => photoByIndex(content.photos, index));
-	const gallery = [44, 25, 10, 1, 2, 33, 16, 5, 22, 15].map((index) => photoByIndex(content.photos, index));
+	const gallery = [44, 38, 25, 10, 1, 2, 33, 16, 5, 22, 15].map((index) => photoByIndex(content.photos, index));
 	const ld = [vacationRentalLd(content), faqLd(content), breadcrumbLd(content)];
 	let placeNumber = 1;
 	const placeGroups = CATEGORY_ORDER.map((category) => {
