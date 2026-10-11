@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-10",
+  "checked": "2026-10-11",
   "origin": {
     "name": "Windsor at Westside",
     "lat": 28.313,
@@ -134,6 +134,20 @@
       "source": "Photon water-park point. OSRM driving table from 28.313, -81.647, 10 Oct 2026. Official URL returned HTTP 200."
     },
     {
+      "id": "island-h2o",
+      "name": "Island H2O Water Park",
+      "label": "Island H2O",
+      "category": "water-park",
+      "url": "https://islandh2owaterpark.com/",
+      "lat": 28.3452943,
+      "lng": -81.6067367,
+      "minutes": 13.42,
+      "miles": 5.9,
+      "why": "Water slides, a wave pool and a lazy river for a family day out.",
+      "address": "3230 Inspiration Drive, Kissimmee, FL 34747",
+      "source": "Official venue website for name and address; OpenStreetMap Photon coordinates; OSRM driving route from 28.313, -81.647 via routing.openstreetmap.de, 11 Oct 2026."
+    },
+    {
       "id": "disney-springs",
       "name": "Disney Springs",
       "label": "Disney Springs",
@@ -146,6 +160,20 @@
       "why": "Disney dining and shopping district. No theme-park ticket required.",
       "address": "Disney Springs, Lake Buena Vista",
       "source": "Photon point. OSRM driving table from 28.313, -81.647, 10 Oct 2026. Official URL returned HTTP 200."
+    },
+    {
+      "id": "old-town",
+      "name": "Old Town",
+      "label": "Old Town",
+      "category": "dining",
+      "url": "https://www.myoldtownusa.com/",
+      "lat": 28.3306168,
+      "lng": -81.5159657,
+      "minutes": 21.98,
+      "miles": 11.46,
+      "why": "Open-air shopping, dining, rides and classic car shows.",
+      "address": "5770 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34746",
+      "source": "Official venue website for name and address; OpenStreetMap Photon coordinates; OSRM driving route from 28.313, -81.647 via routing.openstreetmap.de, 11 Oct 2026."
     },
     {
       "id": "publix",
@@ -227,23 +255,23 @@
       "lng": -81.6739505,
       "minutes": 10.09,
       "miles": 4.56,
-      "why": "Closest emergency room, on Cagan Ridge Boulevard in Clermont.",
+      "why": "Emergency room on Cagan Ridge Boulevard in Clermont.",
       "address": "16966 Cagan Ridge Blvd, Clermont, FL 34714",
       "source": "Photon house node for 16966 Cagan Ridge Blvd, matching the Census address range for Orlando Health South Lake Hospital Joe H. and Loretta Scott Emergency Room \u2014 Four Corners. OSRM route from 28.313, -81.647, 10 Oct 2026. Official facility page confirmed the same day."
     },
     {
-      "id": "md-now",
-      "name": "MD Now Urgent Care \u2014 Clermont",
-      "label": "MD Now",
+      "id": "adventhealth-er",
+      "name": "AdventHealth Four Corners ER",
+      "label": "AdventHealth ER",
       "category": "care",
-      "url": "https://www.mymdnow.com/locations/orlando/clermont",
-      "lat": 28.356057,
-      "lng": -81.676697,
-      "minutes": 10.67,
-      "miles": 4.94,
-      "why": "Closest urgent care, on Cagan View Road in Clermont.",
-      "address": "628 Cagan View Rd Ste 3 & 4, Clermont, FL 34714",
-      "source": "OpenStreetMap point for the clinic (formerly Paramount Urgent Care) at the address on the official MD Now Clermont page, which returned HTTP 200. OSRM driving table from 28.313, -81.647, 10 Oct 2026."
+      "url": "https://www.adventhealth.com/locations/emergency-rooms/four-corners",
+      "lat": 28.3475592,
+      "lng": -81.6491411,
+      "minutes": 7.88,
+      "miles": 3.04,
+      "why": "24-hour emergency room on Bali Boulevard near Avalon Road. Hospital emergency department rates apply.",
+      "address": "17430 Bali Boulevard, Winter Garden, FL 34787",
+      "source": "Official venue website for name and address; OpenStreetMap Photon coordinates; OSRM driving route from 28.313, -81.647 via routing.openstreetmap.de, 11 Oct 2026."
     },
     {
       "id": "mco",
