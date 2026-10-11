@@ -3,7 +3,7 @@ import type { Photo } from './photo';
 
 /** Photos actually rendered or referenced in JSON-LD. Photo 46 (Disney character on the TV) is omitted. */
 const RENDERED_INDEXES = [
-	1, 2, 5, 6, 7, 10, 11, 12, 14, 15, 16, 17, 18, 19, 22, 23, 25, 28, 29, 30, 31, 33, 38, 39, 44
+	0, 1, 2, 5, 6, 7, 10, 11, 12, 14, 15, 16, 17, 18, 19, 22, 23, 25, 28, 29, 30, 31, 33, 38, 39, 44
 ] as const;
 
 const DROP_INDEXES = new Set([46]);
