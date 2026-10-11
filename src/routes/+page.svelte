@@ -82,7 +82,7 @@
 				<h1 class="mt-2 text-4xl font-extrabold leading-tight md:text-6xl">{content.name}</h1>
 			</div>
 			<p class="mt-3 max-w-2xl text-lg text-white/90">
-				7-bedroom pool villa with a karaoke &amp; DJ-light game room, sleeping up to 17, an 800-foot walk from the resort clubhouse and about 20 minutes from Disney’s Animal Kingdom.
+				Luxury 7-bedroom villa rental in Kissimmee for family vacations and group getaways. Sleeps up to 17, with a private pool, spa and karaoke &amp; DJ-light game room at Windsor at Westside—an 800-foot walk from the clubhouse and about 20 minutes from Disney’s Animal Kingdom.
 			</p>
 			<p class="mt-4 flex flex-wrap gap-2 text-sm">
 				<span class="rounded-full bg-white/15 px-3 py-1">7 bedrooms</span>
@@ -108,7 +108,7 @@
 
 	<section id="highlights" aria-labelledby="highlights-h" class="bg-slate-50 py-12">
 		<div class="mx-auto max-w-6xl px-4">
-			<h2 id="highlights-h" class="text-3xl font-bold text-night">Highlights</h2>
+			<h2 id="highlights-h" class="text-3xl font-bold text-night">A Kissimmee villa for family and group getaways</h2>
 			<ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
 				{#each content.highlights as h (h.title)}
 					<li class="rounded-2xl bg-white p-5 shadow-sm">
@@ -128,7 +128,7 @@
 	</section>
 
 	<section id="game-room" aria-labelledby="game-h" class="mx-auto max-w-6xl px-4 py-12">
-		<h2 id="game-h" class="text-3xl font-bold text-night">The game room</h2>
+		<h2 id="game-h" class="text-3xl font-bold text-night">Private villa game room with karaoke</h2>
 		<p class="mt-2 max-w-3xl text-slate-700">A full-size game room “man-cave” where everyone meets after the parks. The smart TV is wired to the karaoke, so you can sing along to YouTube lyric videos.</p>
 		<div class="mt-6 grid gap-6 md:grid-cols-2">
 			<ul class="list-disc space-y-1 pl-5 text-slate-800">
@@ -147,13 +147,13 @@
 
 	<section id="bedrooms" aria-labelledby="bed-h" class="bg-slate-50 py-12">
 		<div class="mx-auto max-w-6xl px-4">
-			<h2 id="bed-h" class="text-3xl font-bold text-night">Bedrooms &amp; sleeping</h2>
+			<h2 id="bed-h" class="text-3xl font-bold text-night">7 bedrooms for families and groups of 14–17</h2>
 			<p class="mt-2 max-w-3xl text-slate-700">7 bedrooms with 4 kings (1 downstairs) and 5½ baths. Sleeps 14–17: 17 guests usually means 4 children in the bunk-trundle room and 2 guests in the double bed.</p>
 			<ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 				{#each content.bedrooms as b, i (i)}
 					<li class="overflow-hidden rounded-2xl bg-white shadow-sm">
 						{#if b.photo !== null}
-							<div class="aspect-[4/3]"><Img p={photoByIndex(content.photos, b.photo)} sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" /></div>
+							<div class="aspect-[4/3]"><Img p={{ ...photoByIndex(content.photos, b.photo), alt: `${b.name} with ${b.beds.toLowerCase()} at Second Star to the Right villa in Kissimmee` }} sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" /></div>
 						{/if}
 						<div class="p-4">
 							<h3 class="font-semibold text-night">{b.name}</h3>
@@ -196,7 +196,7 @@
 	</section>
 
 	<section id="location" aria-labelledby="loc-h" class="mx-auto max-w-6xl px-4 py-12">
-		<h2 id="loc-h" class="text-3xl font-bold text-night">Location &amp; drive times</h2>
+		<h2 id="loc-h" class="text-3xl font-bold text-night">Windsor at Westside, Kissimmee: near Disney &amp; Orlando</h2>
 		<p class="mt-2 max-w-3xl text-slate-700">
 			Kissimmee, Florida, in the Four Corners area of Osceola County. The star is the villa at Windsor at Westside.
 			<a class="text-lagoon underline" href={mapsUrl} rel="noopener">Open in Google Maps</a>.
