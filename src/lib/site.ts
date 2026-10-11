@@ -36,6 +36,6 @@ function publicSiteUrlFromEnv(): string | undefined {
 export const SITE_URL = resolveSiteUrl(publicSiteUrlFromEnv());
 
 export const TITLE =
-	'Second Star to the Right | 7-Bedroom Pool Villa with Game Room near Disney, Kissimmee';
+	'Luxury 7-Bedroom Villa Rental near Disney | 7 Bed Villa';
 export const DESCRIPTION =
-	'7-bedroom, 5.5-bath Grand Collection villa sleeping up to 17 at gated Windsor at Westside, Kissimmee FL. Private heated pool and spa, karaoke and DJ-light game room, 11 smart TVs, 800 ft to the resort clubhouse, about 20 minutes to Disney\'s Animal Kingdom. Rated 9.6/10 on Vrbo.';
+	'Luxury 7-bedroom villa rental in Windsor at Westside, Kissimmee, near Disney. Sleeps up to 17 with a private pool, spa and game room for family and group getaways.';
