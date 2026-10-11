@@ -90,7 +90,7 @@
 				<span class="rounded-full bg-white/15 px-3 py-1">Sleeps 17</span>
 				<span class="rounded-full bg-white/15 px-3 py-1">★ {content.rating.rating}/10 · {content.rating.count} reviews</span>
 			</p>
-			<a href={content.bookUrl} rel="noopener" class="mt-6 inline-block rounded-full bg-star px-6 py-3 text-lg font-bold text-night shadow-lg">Check dates on Vrbo</a>
+			<a href={content.bookUrl} rel="noopener" class="mt-6 inline-block rounded-full bg-star px-6 py-3 text-lg font-bold text-night shadow-lg">Check dates on Vrbo</a><p class="mt-4 text-lg font-semibold text-star">Pool &amp; spa heat included · No resort fees</p><p class="mt-1 text-sm text-white/80">Pool and spa heat included as a current special.</p>
 		</div>
 	</section>
 
@@ -297,7 +297,7 @@
 	<section aria-labelledby="cta-h" class="bg-night py-14 text-center text-white">
 		<h2 id="cta-h" class="text-3xl font-bold">Your second star to the right</h2>
 		<p class="mx-auto mt-2 max-w-xl text-white/80">Named after Peter Pan’s Neverland, “a place where you never grow up.”</p>
-		<a href={content.bookUrl} rel="noopener" class="mt-6 inline-block rounded-full bg-star px-8 py-3 text-lg font-bold text-night">Check dates &amp; book</a>
+		<a href={content.bookUrl} rel="noopener" class="mt-6 inline-block rounded-full bg-star px-8 py-3 text-lg font-bold text-night">Check dates &amp; book</a><p class="mx-auto mt-4 max-w-xl px-4 text-lg font-semibold text-star">Your stay includes pool and spa heat—no extra heating fee.</p><p class="mt-1 text-sm text-white/80">Current special.</p>
 	</section>
 </main>
 
