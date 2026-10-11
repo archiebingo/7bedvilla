@@ -250,7 +250,7 @@ export function curate(listing: ListingInput): Content {
 			{ title: 'Pool & outdoor', items: lines(listing.pool_and_outdoor) },
 			{ title: 'TV & tech', items: lines(listing.tv_and_tech) },
 			{ title: 'Kitchen & dining', items: lines(listing.kitchen) },
-			{ title: 'Kids & family', items: lines(listing.family_and_kids) },
+			{ title: 'Kids & family', items: lines(listing.family_and_kids.filter((item) => !['Toys', 'Games for kids'].includes(item))) },
 			{ title: 'Laundry & essentials', items: lines([...listing.laundry, ...listing.essentials]) },
 			{ title: 'Living spaces', items: lines(listing.living_spaces) },
 			{ title: 'Safety', items: lines(listing.safety) },
@@ -339,7 +339,7 @@ export function curate(listing: ListingInput): Content {
 			{ q: 'Are pets allowed?', a: 'No, pets are not allowed.' },
 			{
 				q: 'Is it good for babies and toddlers?',
-				a: 'Yes. There is a high chair, 2 pack & play cribs, a stair fence, a stroller, toys and a pool safety fence.'
+				a: 'Yes. There is a high chair, 2 pack & play cribs, a stair fence, a stroller and a pool safety fence.'
 			},
 			{ q: 'How many cars can we bring?', a: 'A maximum of 4 cars.' },
 			{ q: 'How do I book?', a: 'Check dates and book on the Vrbo listing (property #4159245ha).' }
